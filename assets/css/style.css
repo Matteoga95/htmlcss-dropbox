@@ -5,12 +5,18 @@
     font-family: 'Raleway', sans-serif;
 }
 
+i{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 :root {
     --dp-blackfont: black;
     --dp-btcolor: #0061ff;
     --dp-mainblue: #b4d0e7;
     --dp-red: #ff0000;
     --dp-white: white;
+    --dp-lgray: gray;
 }
 
 
@@ -21,6 +27,7 @@
     padding:8px 16px;
     background-color: var(--dp-btcolor);
 border: none;
+text-align: center;
 }
 
 /* .clearfix {
@@ -37,10 +44,31 @@ border: none;
     padding-top: 15px;
   }
 
+  .w-100{
+    width: 100%;
+   
+  }
+
 .entity_size{
     font-size: 80px;
 }
 
+.d-flex{
+    display: flex;
+
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+border: 1px solid var(--dp-lgray)
+}
+
+.row {
+    display: flex;
+    flex: wrap;
+    gap: 8rem;
+    margin-top: 50px;
+}
 
 /* #endregion Utility */
 
@@ -108,11 +136,16 @@ header a:link {
     font-weight:700 ;
 }
 
+.undertitle{
+    font-size:3em;
+    font-weight:700 ;
+}
+
 .p_left{
     width: 30%;
     text-align: left;
    font-weight: 400;
-   font-size: medium;
+   font-size:small;
     float: left;
     padding-top: 5%;    
 }
@@ -120,6 +153,15 @@ header a:link {
 .primo_cnt{
     width: 70%;
     margin: auto;
+    clear: both;
+    padding: 30px;
+ 
+}
+
+.secondo_cnt{
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
     clear: both;
     padding: 30px;
  
@@ -135,9 +177,51 @@ header a:link {
 .jumbo{
     width: 70%;
     padding-top: 5%;
+  
     margin-bottom: -10%;
 }
 
+.radio_bt{
+   color: blue; 
+   font-weight: bold;
+}
 
+.radio_text{
+   
+    padding-right: 10px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 15px;
+}
+.radio_text>span{
+    margin-right: 70px;
+}
+.card_row{
+    margin: 50px;
+}
+
+.head_card{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--dp-lgray)
+}
+
+.body_card{
+    width: 80%;
+    margin: auto;
+}
+
+.card_features{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.body_card>hr{
+    width: 15%;
+    color: var(--dp-lgray);
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
 
 /* #endregion main */
