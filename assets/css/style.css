@@ -8,7 +8,7 @@
 :root {
     --dp-blackfont: black;
     --dp-btcolor: #0061ff;
-    --dp-green: #008000;
+    --dp-mainblue: #b4d0e7;
     --dp-red: #ff0000;
     --dp-white: white;
 }
@@ -23,11 +23,33 @@
 border: none;
 }
 
+/* .clearfix {
+   overflow: auto;
+  } */
+
+  .pd_bot{
+   
+    padding-bottom: 15px;
+  }
+
+  .pd_top{
+   
+    padding-top: 15px;
+  }
+
+.entity_size{
+    font-size: 80px;
+}
+
+
 /* #endregion Utility */
 
 
 
 /* #region header */
+
+
+
 
 #site_header {
     height: 5vh;
@@ -76,3 +98,46 @@ header a:link {
 } */
 
 /* #endregion header */
+
+/* #region main */
+
+
+
+.title{
+    font-size:4em;
+    font-weight:700 ;
+}
+
+.p_left{
+    width: 30%;
+    text-align: left;
+   font-weight: 400;
+   font-size: medium;
+    float: left;
+    padding-top: 5%;    
+}
+
+.primo_cnt{
+    width: 70%;
+    margin: auto;
+    clear: both;
+    padding: 30px;
+ 
+}
+
+.background_section{
+    background-color: var(--dp-mainblue);
+
+}
+/* .flo_right{
+    float: right;
+} */
+.jumbo{
+    width: 70%;
+    padding-top: 5%;
+    margin-bottom: -10%;
+}
+
+
+
+/* #endregion main */
