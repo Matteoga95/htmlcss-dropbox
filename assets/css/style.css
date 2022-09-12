@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    font-weight: 600;
 }
 
 i{
@@ -16,7 +17,7 @@ i{
     --dp-mainblue: #b4d0e7;
     --dp-red: #ff0000;
     --dp-white: white;
-    --dp-lgray: gray;
+    --dp-lgray: #d0d0d3;
 }
 
 
@@ -70,6 +71,17 @@ border: 1px solid var(--dp-lgray)
     margin-top: 50px;
 }
 
+.c_gray{
+    color: var(--dp-lgray);
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.check_color{
+    color: #0061ff;
+}
 /* #endregion Utility */
 
 
@@ -141,6 +153,11 @@ header a:link {
     font-weight:700 ;
 }
 
+.med_size{
+    font-size:2em;
+    font-weight:700 ;
+}
+
 .p_left{
     width: 30%;
     text-align: left;
@@ -204,12 +221,19 @@ header a:link {
     text-align: center;
     display: flex;
     justify-content: center;
-    border: 1px solid var(--dp-lgray)
+    border-bottom: 1px solid var(--dp-lgray);
+    padding: 10px;
+    font-weight: 600;
 }
 
 .body_card{
     width: 80%;
     margin: auto;
+}
+
+.card_price{
+    margin-top: 20px;
+    margin-bottom: 50px; 
 }
 
 .card_features{
@@ -223,5 +247,6 @@ header a:link {
     margin-top: 15%;
     margin-bottom: 15%;
 }
+
 
 /* #endregion main */
