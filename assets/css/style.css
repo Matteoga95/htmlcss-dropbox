@@ -67,7 +67,7 @@ border: 1px solid var(--dp-lgray)
 .row {
     display: flex;
     flex: wrap;
-    gap: 8rem;
+    gap: 6rem;
     margin-top: 50px;
 }
 
