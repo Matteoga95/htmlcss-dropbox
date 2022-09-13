@@ -18,6 +18,15 @@ i{
     --dp-red: #ff0000;
     --dp-white: white;
     --dp-lgray: #d0d0d3;
+    --pr-green:#a2d39b;
+    --pr-lightgreen:#d1e9cd;
+    --pr-darkred:#61082b;
+    --pr-lightred:#ff1c1c;
+    --pr-red: #d5001f;
+    --pr-darkblue:#0d2481;
+    --pr-blue:#0093ce;
+    --pr-lightblue:#b4d0e7;
+    --pr-yelllow:#ffd830;
 }
 
 
@@ -307,8 +316,66 @@ header a:link {
 .op_row {
     display: flex;
   flex-wrap: wrap;
- 
+
     margin-top: 50px;
 }
 
+.vp_ratio{
+    height: 30vh;
+    width: 100vw;
+}
+
+.square{
+    height:60%;
+    width: 50%;
+
+    position: relative;
+}
+
+.pr_logo{
+    width: 60%;
+    margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  filter: invert(93%) sepia(93%) saturate(0%) hue-rotate(241deg) brightness(106%) contrast(111%);
+}
+
+#pr-asu{
+    background-color: var(--pr-darkred);
+}
+#pr-florida{
+    background-color: var(--pr-blue);
+}
+#pr-topps{
+    background-color: var(--dp-red);
+}
+#light-green{
+    background-color: var(--pr-lightgreen);
+}
+#pr-designit{
+    background-color: var(--pr-green);
+   
+}
+
+#pr-cco{
+    background-color: var(--pr-yelllow);
+   
+}
+
+#pr-lonely{
+    background-color: var(--pr-darkblue);
+   
+}
+
+#pr-hearst{
+    background-color: var(--pr-lightblue);
+   
+}
+
+#pr-wbr{
+    background-color: var(--pr-red);
+   
+}
 /* #endregion main */
