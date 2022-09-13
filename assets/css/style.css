@@ -107,7 +107,7 @@ margin-bottom: 30px;
 .row {
     display: flex;
   
-    gap: 5rem;
+    gap: 2rem;
     margin-top: 50px;
 }
 
@@ -383,4 +383,22 @@ padding-left: 2%;
 margin-top: 50px;
 margin-bottom: -5vh;
 }
+
+.vp_try_dropbox{
+    height: 20vh;
+    width: 100vw;
+    background-color: var(--pr-lightblue);
+    display: flex;
+    justify-content: center;
+ align-items: center;
+    margin-top: 5vh;
+}
+
+.pr-h3{
+    color: var(--pr-darkred);
+    width: 30%;
+    padding: 20px;
+    align-self: center;
+}
+
 /* #endregion main */
