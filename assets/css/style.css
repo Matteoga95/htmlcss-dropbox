@@ -56,12 +56,19 @@ text-align: center;
 
 .d-flex{
     display: flex;
-
+ 
 }
 
 .col-4 {
     width: calc(100% / 12 * 4);
 border: 1px solid var(--dp-lgray)
+}
+
+.col-12 {
+    width: calc(100% / 12 * 12);
+border: 1px solid var(--dp-lgray);
+margin-top: 30px;
+margin-bottom: 30px;
 }
 
 .row {
@@ -229,6 +236,14 @@ header a:link {
 .body_card{
     width: 80%;
     margin: auto;
+}
+.body_card_col-12{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .card_price{
