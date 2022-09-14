@@ -49,10 +49,15 @@ i {
     padding: 8px 16px;
 }
 
-/* .clearfix {
-   overflow: auto;
-  } */
+.vert_pd{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
 
+.vert_mg{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .pd_bot {
 
     padding-bottom: 15px;
@@ -180,14 +185,14 @@ header>nav {
     flex-grow: 1;
 }
 
-header a:link {
+.link_header:link {
     text-decoration: none;
     color: var(--dp-blackfont);
     text-align: center;
     padding: 0 20px;
     height: 100%;
 }
-header a:hover {
+.link_header:hover {
     text-decoration: none;
     color: var(--dp-blackfont);
     text-align: center;
